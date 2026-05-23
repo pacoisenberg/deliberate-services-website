@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deliberate Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">Deliberate Services</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Hard problems<br>solved deliberately.</h1>
+            <p class="subhead">We help organizations cut through complexity in operations, strategy, and AI so you can move faster and make more money.</p>
+            <a href="#contact" class="btn">Get in touch</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Operational Excellence</h3>
+                    <p>When your team is working hard but results aren't following, the bottleneck is usually hidden in how work actually flows. We find it, fix it, and build a leaner path forward.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Strategy</h3>
+                    <p>Big problems rarely come with clear instructions. When you're stuck choosing between competing priorities, we help you define the real problem so you're working on the right things, not just doing things right.</p>
+                </div>
+                <div class="service-card">
+                    <h3>AI Transformation</h3>
+                    <p>Every vendor promises AI will transform your business. Most of it won't. We help your team understand how to get started so that it becomes just another tool in your toolbelt to tackle hard problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Let's talk.</h2>
+            <p class="section-sub">Tell us about your problem. We'll get back to you within one business day.</p>
+            <form action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">
+                <input type="hidden" name="_replyto" value="inquiries@deliberateservices.co">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">What are you working on?</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Deliberate Services LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
